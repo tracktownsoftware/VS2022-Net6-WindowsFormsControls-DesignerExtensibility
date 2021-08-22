@@ -12,7 +12,7 @@ Steps to see VS2019_DN4pt6WinFormControl example:
 5. In VS2019 make a new .Net Framework Windows Forms project. 
 6. Open the Form1 design surface.
 7. Open the VS2019 Toolbox. Observe that the MyButton control is in the VS toolbox (thanks to the toolbox registry entry in step 4).
-8. Click MyButton in the toolbox and then click+drag on Form1 design design surface to draw MyButton control
+8. Click MyButton in the toolbox and then click+drag on Form1 design surface to draw MyButton control
 9. Rt-click MyButton control on Form1 design surface to use functional design-time context menu items (image below)
 
 ![Image](VS2019_DN4pt6WinFormControl/VS2019_MyButtonDesignTime.png)
