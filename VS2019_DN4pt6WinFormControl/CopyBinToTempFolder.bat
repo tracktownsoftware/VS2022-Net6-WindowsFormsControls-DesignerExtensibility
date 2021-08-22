@@ -1,0 +1,1 @@
+xcopy .\NetFrameworkWinFormControl\bin\release c:\temp\NetFrameworkWinFormControl\bin /Y/E/C/I

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net4WinFormControl", "DN4pt6WinFormControl\Net4WinFormControl.csproj", "{08D76F07-5808-43B1-8B8C-6D67408D621D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkWinFormControl", "NetFrameworkWinFormControl\NetFrameworkWinFormControl.csproj", "{08D76F07-5808-43B1-8B8C-6D67408D621D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net4WinFormControl.Design", "DN4pt6WinFormControl.Design\Net4WinFormControl.Design.csproj", "{99B192DD-2982-4E1E-AF01-A8326F11FE5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkWinFormControl.Design", "NetFrameworkWinFormControl.Design\NetFrameworkWinFormControl.Design.csproj", "{99B192DD-2982-4E1E-AF01-A8326F11FE5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
