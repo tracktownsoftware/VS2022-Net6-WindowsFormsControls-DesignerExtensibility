@@ -7,7 +7,7 @@ This is included here as an example of what I want to do with a Net6 Windows For
 Steps to see VS2019_DN4pt6WinFormControl example:
 1. Open VS2019_DN4pt6WinFormControl.sln in Visual Studio 2019
 2. Build release configuration
-3. From solution folder run copyBinToTempFlder.bat to copy contents of .\NetFrameworkWinFormControl\bin\release to c:\temp\NetFrameworkWinFormControl\bin (or copy by hand)
+3. From solution folder run copyBinToTempFolder.bat to copy contents of .\NetFrameworkWinFormControl\bin\release to c:\temp\NetFrameworkWinFormControl\bin (or copy by hand)
 4. Run RegistryEntriesForVS2019IDE.reg to add registry entries to automatically load MyButton control into the VS2019 Toolbox for Windows Forms projects, and to inform VS2019 that NetFrameworkWinFormControl.Design.dll is in the Design subfolder.
 5. In VS2019 make a new .Net Framework Windows Forms project. 
 6. Open the Form1 design surface.
