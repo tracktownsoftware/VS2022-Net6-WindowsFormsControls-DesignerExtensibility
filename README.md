@@ -1,5 +1,5 @@
 # VS2022-Net6-WindowsFormsControls-DesignerExtensibility
-Figuring out designer extensibility support for custom Net6 WinForms controls in VS2022
+Figuring out VS2022 toolbox and designer extensibility support for custom Net6 WinForms controls in VS2022
 
 ### Folder VS2019_DN4pt6WinFormControl contains a .Net Framework 4.6 example of a Windows Forms custom MyButton control with designer extensibility in Visual Studio 2019. 
 This is included here as an example of what I want to do with a Net6 Windows Forms custom control in Visual Studio 2022 (Automatically add control to Visual Studio toolbox and support design-time behavior).
