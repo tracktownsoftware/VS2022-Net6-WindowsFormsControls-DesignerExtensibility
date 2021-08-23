@@ -38,3 +38,18 @@ Two ways I've tried to accomplish this, but FAILED to this point:
 1. Standalone exe installer with registry entries similar to RegistryEntriesForVS2019IDE.reg in the example above.
 2. A Nuget package containing VS2019_DN4pt6WinFormControl.dll and \design\VS2019_DN4pt6WinFormControl.design.dll that populates the VS2022 toolbox and supports design-time behavior. I see samples online for WPF/XAML controls in a Nuget package to accomplish these tasks, but haven't found a good example for NetCore or Net6 WinForms controls.
 
+Steps to set up VS2022_Net6WinFormControl example:
+1. Open VS2022_Net6WinFormControl.sln in Visual Studio 2019
+2. Build release configuration
+3. From the solution folder run copyBinToTempFolder2.bat (or copy files by hand) to copy bin output to the paths below:
+    - C:\temp\Net6WinFormControl\bin\Net6WinFormControl.dll
+    - C:\temp\Net6WinFormControl\bin\design\Net6WinFormControl.Design.dll
+
+I tried manually adding my Net 6 WinForms control to the toolbox:
+1. In VS2022 start a new Net 6 Windows Forms application
+2. Display Form1 design surface
+3. in the VS2022 toolbox use choose items and browse to C:\temp\Net6WinFormControl\bin\Net6WinFormControl.dll
+4. This results in the error below
+
+![Image](VS2022_Net6WinFormControl/VS2022ToolboxChooseItemsException.JPG)
+
