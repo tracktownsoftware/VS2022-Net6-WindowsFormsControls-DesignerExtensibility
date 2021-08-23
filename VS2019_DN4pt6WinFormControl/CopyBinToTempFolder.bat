@@ -1,1 +1,2 @@
 xcopy .\NetFrameworkWinFormControl\bin\release c:\temp\NetFrameworkWinFormControl\bin /Y/E/C/I
+xcopy .\NetFrameworkWinFormControl.Design\bin\release c:\temp\NetFrameworkWinFormControl\bin\design /Y/E/C/I

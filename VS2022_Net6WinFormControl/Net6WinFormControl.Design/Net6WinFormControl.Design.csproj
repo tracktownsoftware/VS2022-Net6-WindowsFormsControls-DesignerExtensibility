@@ -1,8 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
+	<UseWindowsForms>true</UseWindowsForms>
+	<BaseOutputPath>..\Net6WinFormControl\bin\Design</BaseOutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net6WinFormControl\Net6WinFormControl.csproj" />
+  </ItemGroup>
 
 </Project>
