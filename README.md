@@ -20,3 +20,14 @@ Steps to see VS2019_DN4pt6WinFormControl example:
 10. Rt-click MyButton control on Form1 design surface to use functional design-time context menu items (image below)
 
 ![Image](VS2019_DN4pt6WinFormControl/VS2019_MyButtonDesignTime.png)
+
+### Folder VS2022_Net6WinFormControl contains a Net6 example (not working yet) of a Windows Forms custom MyButton2 control with designer extensibility in Visual Studio 2022. 
+
+Goal: Distribute Net6WinFormControl in a standalone installer or Nuget package and have the following result:
+1. The MyButton2 control automatically shows up in the VS2022 toolbox for a Windows Forms project
+2. Have VS2022 recognize the external VS2019_DN4pt6WinFormControl.design.dll assembly and designer extensibility is supported in the same way as the VS2019_DN4pt6WinFormControl example
+
+Two ways to accomplish this:
+1. Standalone exe installer with registry entries similar to RegistryEntriesForVS2019IDE.reg in the example above.
+2. A Nuget package containing VS2019_DN4pt6WinFormControl.dll and \design\VS2019_DN4pt6WinFormControl.design.dll that populates the VS2022 toolbox and supports design-time behavior.
+
